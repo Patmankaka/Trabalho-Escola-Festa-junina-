@@ -1,0 +1,101 @@
+
+
+body{
+background-color: antiquewhite;
+height: 1000px;
+}
+
+nav{
+background-color: rgb(160, 107, 0);
+border-radius: 8px;
+}
+
+li{
+ list-style: none;
+ text-decoration: none;
+ height: 30px;
+ width: 80px;
+ text-align: center;
+ margin: 10px;
+ padding-top: 10px;
+ display: inline-block;
+ border-radius: 10px;
+ border-color: black;
+ border-width: 2px;
+ border-style:solid;
+}
+#pg1{
+ background-color: rgb(190, 162, 105);;
+
+}
+#pg2{
+    background-color: rgb(190, 162, 105);;
+
+
+}
+#pg3{
+ background-color: rgb(190, 162, 105);
+
+
+}
+#pg4{
+background-color: rgb(54, 149, 71);
+float: right;
+padding-right: 460px;
+padding-left: 395px;
+}
+#Hist{
+text-align: center;
+font-family: party-day-font, sans-serif;
+font-size: xx-large;
+}
+
+@keyframes changeColor {
+    0% { color: rgb(90, 1, 1); }
+    33% { color: rgb(0, 0, 132); }
+    66% { color: rgb(1, 87, 1); }
+    100% { color: rgb(90, 1, 1); }
+}
+
+@font-face {
+    font-family: party-day-font;
+    src: url('font/party_day/PartyDayDemoRegular.ttf') format('truetype');
+};
+.link {
+color: violet;
+text-decoration: none;
+}
+
+#link {
+    color: black;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#link2 {
+    color: black;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#link3 {
+    color: black;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#link4 {
+    color: black;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h1{
+animation: changeColor 3s infinite;
+
+}
+
+#audio {
+margin-top: 1000px;
+
+}
